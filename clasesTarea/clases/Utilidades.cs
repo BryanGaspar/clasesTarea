@@ -26,6 +26,12 @@ namespace clasesTarea.clases
 
                 return fac;
             }
+            /// <summary>
+            /// La función calcula la suma de una serie de numeros factoriales
+            /// </summary>
+            /// <param name="inicio">Inicio de la serie</param>
+            /// /// <param name="fin">fin de la serie</param>
+            /// <returns>suma de numeros factorados</returns>
             public static int SumaFactorial(int inicio, int fin)
             {
                 int sum = 0, fac = 1, i;
